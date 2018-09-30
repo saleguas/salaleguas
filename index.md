@@ -9,7 +9,7 @@ layout: home
 <title>Cypress bay Broward GPA calculator</title>
 </head>
 <body>
-<script type="text/javascript" src="/assets/script.js"></script>
+<script type="text/javascript" src="{{ "/assets/script.js, " | prepend: site.baseurl }}"></script>
 <link rel="stylesheet" type="text/css" href="/assets/main.css" media = "screen,projection"/>
 <div id = "introduction">
 
