@@ -4,7 +4,7 @@
 
 layout: home
 ---
-<link rel="stylesheet" href="/assets/main.css">
+<link rel="stylesheet" href="{{ "/assets/main.css, " | prepend: site.baseurl }}" >
 <head>
 <title>Cypress bay Broward GPA calculator</title>
 </head>
