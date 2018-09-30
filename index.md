@@ -51,7 +51,7 @@ layout: home
 	<h1></h1>
 
 	<h2>Want to calculate it manually? </h2>
-	<h3><a href = "/salaleguas/manual">This</a> might help you.</h3>
+	<h3><a href = "/manual">This</a> might help you.</h3>
 
 	</body>
 	
