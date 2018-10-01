@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cypress bay/Broward/High school GPA calculator
+title: Cypress Bay/Broward/high school GPA calculator
 email: salvadoraleguas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   For some strange reason, there is no clear information for calculating GPA for Cypress Bay/Broward.
