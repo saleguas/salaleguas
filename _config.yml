@@ -16,8 +16,9 @@
 title: Cypress Bay/Broward/high school GPA calculator
 email: salvadoraleguas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  For some strange reason, there is no clear information for calculating GPA for Cypress Bay/Broward.
-  It was a pain to find out how to calculate it from scratch, so I made this to help people.
+  Some useful tools that will help you calculate and predict your GPA.
+  Works for Cypress bay and Broward county as far as I have tested it.
+  I am NOT responsible for anything that happens from these tools. Use them at your own risk.
 baseurl: "/salaleguas" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xyungmattyx
