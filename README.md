@@ -1,3 +1,4 @@
 # salaleguas
-School tools for Broward and Cypress Bay High School
+School tools for Broward and Cypress Bay High School.
+
 Mostly just GPA calculators for now
