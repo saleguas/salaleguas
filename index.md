@@ -4,7 +4,7 @@
 
 layout: home
 ---
-<link rel="stylesheet" href="{{ "/assets/main.css, " | prepend: site.baseurl }}" >
+<link rel="stylesheet" href='{{ "/assets/main.css" | prepend: site.baseurl }}' >
 <head>
 <title>Cypress Bay Broward Highschool high school GPA calculator</title>
 <meta name="keywords" content="High school, GPA, GPA predictor, broward, Cypress bay, Cypress, Cypress bay high school, GPA predictor broward, GPA predictor cypress bay, GPA calculator broward">
