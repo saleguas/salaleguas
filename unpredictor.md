@@ -11,8 +11,8 @@ permalink: /unweightedbrowardpredictor/
 <body>
 <h4>Unweighted only. Should work for Broward.</h4>
 
-<input placeholder = "CURRENT GPA" type="number" name="psw" id = "currentg">
-<input placeholder = "CURRENT CREDITS" type="number" name="psw" id = "currentc">
+<input placeholder = "CURRENT GPA" type="number" step = ".00001" name="psw" id = "currentg">
+<input placeholder = "CURRENT CREDITS" type="number" step = ".00001" name="psw" id = "currentc">
 <div id = "newClasses">
 
 <input type = "button" onclick="add_fields_predict()" value = "Add class"/>
