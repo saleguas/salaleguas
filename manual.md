@@ -175,7 +175,7 @@ permalink: /manual/
         </table>
 
   </div>
-  Cypress or Broward for that matter is strange for when it comes to GPA; 
+  Cypress/Broward/CBHS for that matter is strange for when it comes to GPA; 
   there is an awful lot of specifics and classes such as AICE that are not
   offered anywhere else. For unweighted, the "+" does not matter; it is worth .3 more
   in weighted. I also included options for AICE and no option for A+ or A- because those 
