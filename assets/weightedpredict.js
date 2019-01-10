@@ -31,7 +31,9 @@ function calculatePredict()
     for(let x = 0; x < classGrades.length; x++)
     {
         let currentCredit = Number(classCredits[x].value);
-        let currentGrade = Number(classGrades[x].value) + Number(classTYpes[x].value);
+        let currentGrade = Number(classGrades[x].value)
+        if(currentGrade >= 2.0)
+            currentGrade += Number(classTYpes[x].value);
         totalGP += (currentCredit * currentGrade);
         credits += currentCredit;
     }

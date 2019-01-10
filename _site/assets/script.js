@@ -40,8 +40,10 @@ function calculateWeighted(){
     let classType = document.getElementsByClassName("classType");
     for(let x = 0; x < classGrades.length; x++)
     {
-        let currentCredit = Number(classCredits[x].value)
-        let currentGrade = Number(classGrades[x].value) + Number(classType[x].value);
+        let currentCredit = Number(classCredits[x].value);
+        let currentGrade = Number(classGrades[x].value);
+        if(currentGrade >= 2.0)
+         currentGrade += Number(classType[x].value);
         total += (currentCredit * currentGrade);
         creditsTotal += currentCredit;
     }
