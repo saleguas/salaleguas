@@ -17,5 +17,5 @@ layout: home
 <h2>Welcome to my website.</h2>
 <h4>
 I post tools here that I hope can help you.</h4>
-<h4>The main thing I worked on here is the GPA calculator; Broward has a very strange grading scale compared to other schools, so I hope this would help some people.</h4>
+<h4>The main thing I worked on here is the GPA calculator; Broward/CBHS has a very strange grading scale compared to other schools, so I hope this would help some people.</h4>
 </body>
