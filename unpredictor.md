@@ -5,7 +5,7 @@ permalink: /unweightedbrowardpredictor/
 ---
 <head>
 <meta name="keywords" content="broward gpa predictor, predictor, gpa predictor, cypress bay gpa predictor">
-<script type="text/javascript" src="/salaleguas/assets/predict.js"></script>
+<script type="text/javascript" src="/assets/predict.js"></script>
 <link rel="stylesheet" type="text/css" href="/assets/main.css" media = "screen,projection"/>
 </head>
 <body>
