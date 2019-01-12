@@ -3,7 +3,11 @@ layout: page
 title: Manual calculation
 permalink: /manual/
 ---
-
+<head>
+<link rel="stylesheet" href='/assets/main.css'>
+<link rel="stylesheet" href="/assets/inputs.css">
+<title>Manual calculation</title>
+</head>
 <div class="post-content">
         <h3><strong>How is GPA calculated?</strong></h3>
 
@@ -34,9 +38,9 @@ permalink: /manual/
                     <td>5</td>
                     <td>4.5</td>
                     <td>4</td>
-                    <td>3.5</td>
-                    <td>3</td>
-                    <td>2</td>
+                    <td>1.5</td>
+                    <td>1</td>
+                    <td>0</td>
                 </tr>
                 <tr>
                     <td>AP</td>
@@ -45,9 +49,9 @@ permalink: /manual/
                     <td>5</td>
                     <td>4.5</td>
                     <td>4</td>
-                    <td>3.5</td>
-                    <td>3</td>
-                    <td>2</td>
+                    <td>1.5</td>
+                    <td>1</td>
+                    <td>0</td>
                 </tr>
 
                 
@@ -58,9 +62,9 @@ permalink: /manual/
                     <td>5</td>
                     <td>4.5</td>
                     <td>4</td>
-                    <td>3.5</td>
-                    <td>3</td>
-                    <td>2</td>
+                    <td>1.5</td>
+                    <td>1</td>
+                    <td>0</td>
                 </tr>
 
                 <tr>
@@ -70,9 +74,9 @@ permalink: /manual/
                     <td>4</td>
                     <td>3.5</td>
                     <td>3</td>
-                    <td>2.5</td>
-                    <td>2</td>
+                    <td>1.5</td>
                     <td>1</td>
+                    <td>0</td>
 
                 </tr>
 
@@ -175,6 +179,9 @@ permalink: /manual/
         </table>
 
   </div>
+  You might be wondering why The D and F grades are static no matter the class. It is because that quality points(the extra gpa points you get for taking classes above regular) only apply to grades that are considered passing: C and above.
+  <br>
+  <br>
   Cypress/Broward/CBHS for that matter is strange for when it comes to GPA; 
   there is an awful lot of specifics and classes such as AICE that are not
   offered anywhere else. For unweighted, the "+" does not matter; it is worth .3 more

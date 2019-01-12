@@ -3,7 +3,9 @@ layout: page
 title: GPA calculator
 permalink: /calculator/
 ---
-<link rel="stylesheet" href='{{ "/assets/main.css" | prepend: site.baseurl }}' >
+<link rel="stylesheet" href='/assets/main.css'>
+<link rel="stylesheet" href="/assets/inputs.css">
+
 <head>
 <title>Cypress Bay Broward Highschool high school GPA calculator</title>
 <meta name="keywords" content="highschool, High school, gpa, GPA, broward, Broward, Cypress bay, Cypress, Cypress bay highschool, cypress bay high school, cypress bay gpa calculator, gpa calculator, cypress gpa calculator, please give me traffic, gpa calculator cypress, broward gpa calculator, gpa calculator broward, gpa predictor, gpa predictor cypress">
@@ -16,8 +18,8 @@ permalink: /calculator/
 <h4 id = "GPAS2">Weighted GPA: </h4>
 </div>
 <h4>Use the buttons to add and remove classes.</h4>
-<input type = "button" onclick="add_fields()" value = "Add class"/>
-<input type = "button" onclick="removeInput()" value = "Remove class"/>
+<button onclick="add_fields()">Add class</button>
+<button onclick="removeInput()">Remove class</button>
 
 <table>
     <tr>
@@ -39,7 +41,7 @@ permalink: /calculator/
     </tr>
 </table>
 
-<input type = "button" onclick="calculate()" value = "Calculate"/>
+<button onclick="calculate()">Calculate</button>
 
 
 <h1></h1>

@@ -1,0 +1,24 @@
+button {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #111111;
+	background-color: #e8e8e8;
+    border: solid 2px #c9c9c9;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+button:hover {
+    background: #ffffff;
+    color: black;
+}
+input, select {
+  width: 25%;
+  padding: 4px 4px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

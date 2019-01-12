@@ -6,7 +6,9 @@ permalink: /weightedbrowardpredictor/
 <head>
 <meta name="keywords" content="broward gpa predictor, predictor, gpa predictor, cypress bay gpa predictor">
 <script type="text/javascript" src="/assets/weightedpredict.js"></script>
-<link rel="stylesheet" type="text/css" href="/assets/main.css" media = "screen,projection"/>
+<link rel="stylesheet" href='/assets/main.css'>
+<link rel="stylesheet" href="/assets/inputs.css">
+<title>Weighted GPA predictor</title>
 </head>
 <body>
 <h4>Weighted only. Should work for Broward.</h4>
