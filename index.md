@@ -10,7 +10,6 @@ layout: home
 <head>
 	<title>Cypress Bay Broward Highschool high school GPA calculator</title>
 	<meta name="keywords" content="High school, GPA, GPA predictor, broward, Cypress bay, Cypress, Cypress bay high school, GPA predictor broward, GPA predictor cypress bay, GPA calculator broward">
-	<meta name="msvalidate.01" content="DF5DB3BF4C8A6EFC45ECB360D416F149" />
 	<script type="text/javascript" src="/salaleguas/assets/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="/assets/main.css" media = "screen,projection"/>
 </head>
