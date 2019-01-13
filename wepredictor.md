@@ -26,7 +26,7 @@ permalink: /weightedbrowardpredictor/
 	<tr>
 		<th>
 			<div id = "introduction"> 
-				<h4 id ="GPAS">Unweighted GPA: </h4>
+				<h4 id ="GPAS">Weighted GPA: </h4>
 			</div>
 		</th>
 		<th>

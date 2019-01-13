@@ -42,6 +42,6 @@ function calculatePredict()
         totalGP += (currentCredit * currentGrade);
         credits += currentCredit;
     }
-    document.getElementById("GPAS").innerHTML = '<h4 id ="GPAS">Unweighted GPA: ' + (totalGP / credits).toString() + '</h4>';
+    document.getElementById("GPAS").innerHTML = '<h4 id ="GPAS">Weighted GPA: ' + (totalGP / credits).toString() + '</h4>';
 
 }
