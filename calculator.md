@@ -13,35 +13,30 @@ permalink: /calculator/
 <body>
 <script type="text/javascript" src="/assets/script.js"></script>
 <link rel="stylesheet" type="text/css" href="/assets/main.css" media = "screen,projection"/>
-<div id = "introduction"> 
-<h4 id ="GPAS1">Unweighted GPA: </h4>
-<h4 id = "GPAS2">Weighted GPA: </h4>
-</div>
 <h4>Use the buttons to add and remove classes.</h4>
-<button onclick="add_fields()">Add class</button>
-<button onclick="removeInput()">Remove class</button>
-
-<table>
-    <tr>
-            <table>
-                    <tr id = "demo">
-                    <!-- <input class="currentWeightedGpa" placeholder="Weighted gpa(optional)" type="number" step = ".5" id = "currentWeightedGpa">
-                        <input class="currentUnweightedGpa" placeholder="Unweighted gpa(optional)" type="number" step = ".5" id = "currentUnweightedGpa">
-                        <input class="currentCredits" placeholder="Current Credits(optional)" type="text" step = ".5" id = "currentCredits">
-                    -->
-                    </tr>
-                </table>
-        <td>
-                                                        
-        </td>
-        <div id = "wrapper">
-
-        </div>
-
-    </tr>
+<table id = "tabl">
+	<tr>
+		<th>Classes</th>
+		<th>Buttons</th>
+	</tr>
+	
+	<tr>
+		<th>
+			<div id = "introduction"> 
+				<h4 id ="GPAS1">Unweighted GPA: </h4>
+				<h4 id = "GPAS2">Weighted GPA: </h4>
+			</div>
+		</th>
+		<th>
+			<button onclick="add_fields()">Add class</button>
+			<button onclick="removeInput()">Remove class</button>
+			<button onclick="calculate()">Calculate</button>
+		</th>
+	</tr>
 </table>
+                                                       
 
-<button onclick="calculate()">Calculate</button>
+
 
 
 <h1></h1>

@@ -15,15 +15,28 @@ permalink: /unweightedbrowardpredictor/
 
 <input placeholder = "CURRENT GPA" type="number" step = ".00001" name="psw" id = "currentg">
 <input placeholder = "CURRENT CREDITS" type="number" step = ".00001" name="psw" id = "currentc">
-<div id = "newClasses">
 
-<input type = "button" onclick="add_fields_predict()" value = "Add class"/>
-<input type = "button" onclick="removeInput_predict()" value = "Remove class"/>
-<script>setup();</script>
-</div>
+<script>setup()</script>
+<table id = "tabl">
+	<tr>
+		<th>Classes</th>
+		<th>Buttons</th>
+	</tr>
+	
+	<tr>
+		<th>
+			<div id = "introduction"> 
+				<h4 id ="GPAS">Unweighted GPA: </h4>
+			</div>
+		</th>
+		<th>
+			<button onclick="add_fields_predict()">Add class</button>
+			<button onclick="removeInput_predict()">Remove class</button>
+			<button onclick="calculatePredict()">Calculate</button>
+		</th>
+	</tr>
+</table>
 
-<input type = "button" onclick="calculatePredict()" value = "Predict"/>
 
-<h1 id ="GPAS"></h1>
 
 </body>
