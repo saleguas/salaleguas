@@ -5,9 +5,9 @@ permalink: /predictor/
 ---
 <head>
 <meta name="keywords" content="broward gpa predictor, predictor, gpa predictor, cypress bay gpa predictor">
-<link rel="stylesheet" href='salaleguas/assets/main.css'>
-<link rel="stylesheet" href="salaleguas/assets/inputs.css">
-<script type="text/javascript" src="salaleguas/assets/predict.js"></script>
+<link rel="stylesheet" href='/assets/main.css'>
+<link rel="stylesheet" href="/assets/inputs.css">
+<script type="text/javascript" src="/assets/predict.js"></script>
 
 <title>Weighted GPA predictor</title>
 </head>
