@@ -43,5 +43,22 @@ function calculatePredict()
         credits += currentCredit;
     }
     document.getElementById("GPAS").innerHTML = '<h4 id ="GPAS">Weighted GPA: ' + (totalGP / credits).toString() + '</h4>';
+	calculatePredict2();
+
+}
+function calculatePredict2()
+{
+    var credits = Number(document.getElementById("currentc").value);
+    var totalGP = Number(document.getElementById("currentg").value) * credits;
+    let classGrades = document.getElementsByClassName("grades");
+    let classCredits = document.getElementsByClassName("credits");
+    for(let x = 0; x < classGrades.length; x++)
+    {
+        let currentCredit = Number(classCredits[x].value);
+        let currentGrade = Number(Math.floor(classGrades[x].value));
+        totalGP += (currentCredit * currentGrade);
+        credits += currentCredit;
+    }
+    document.getElementById("GPAS2").innerHTML = '<h4 id ="GPAS2">Unweighted GPA: ' + (totalGP / credits).toString() + '</h4>';
 
 }

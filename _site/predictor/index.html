@@ -3,17 +3,17 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Unweighted GPA predictor | Cypress Bay/Broward/high school GPA calculator</title>
+<title>GPA predictor | Cypress Bay/Broward/high school GPA calculator</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Unweighted GPA predictor" />
+<meta property="og:title" content="GPA predictor" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Some useful tools that will help you calculate and predict your GPA. Works for Cypress bay and Broward county as far as I have tested it. I am NOT responsible for anything that happens from these tools. Use them at your own risk." />
 <meta property="og:description" content="Some useful tools that will help you calculate and predict your GPA. Works for Cypress bay and Broward county as far as I have tested it. I am NOT responsible for anything that happens from these tools. Use them at your own risk." />
-<link rel="canonical" href="http://localhost:4000/unweightedbrowardpredictor/" />
-<meta property="og:url" content="http://localhost:4000/unweightedbrowardpredictor/" />
+<link rel="canonical" href="http://localhost:4000/predictor/" />
+<meta property="og:url" content="http://localhost:4000/predictor/" />
 <meta property="og:site_name" content="Cypress Bay/Broward/high school GPA calculator" />
 <script type="application/ld+json">
-{"description":"Some useful tools that will help you calculate and predict your GPA. Works for Cypress bay and Broward county as far as I have tested it. I am NOT responsible for anything that happens from these tools. Use them at your own risk.","@type":"WebPage","url":"http://localhost:4000/unweightedbrowardpredictor/","headline":"Unweighted GPA predictor","@context":"http://schema.org"}</script>
+{"description":"Some useful tools that will help you calculate and predict your GPA. Works for Cypress bay and Broward county as far as I have tested it. I am NOT responsible for anything that happens from these tools. Use them at your own risk.","@type":"WebPage","url":"http://localhost:4000/predictor/","headline":"GPA predictor","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Cypress Bay/Broward/high school GPA calculator" /></head>
 <body><header class="site-header" role="banner">
@@ -28,7 +28,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/aboutme/">About me</a><a class="page-link" href="/calculator/">GPA calculator</a><a class="page-link" href="/manual/">Manual calculation</a><a class="page-link" href="/unweightedbrowardpredictor/">Unweighted GPA predictor</a><a class="page-link" href="/weightedbrowardpredictor/">Weighted GPA</a></div>
+        <div class="trigger"><a class="page-link" href="/aboutme/">About me</a><a class="page-link" href="/calculator/">GPA calculator</a><a class="page-link" href="/manual/">Manual calculation</a><a class="page-link" href="/predictor/">GPA predictor</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -36,19 +36,20 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Unweighted GPA predictor</h1>
+    <h1 class="post-title">GPA predictor</h1>
   </header>
 
   <div class="post-content">
     <head>
 <meta name="keywords" content="broward gpa predictor, predictor, gpa predictor, cypress bay gpa predictor" />
-<script type="text/javascript" src="/assets/predict.js"></script>
+<script type="text/javascript" src="/assets/weightedpredict.js"></script>
+
 <link rel="stylesheet" href="/assets/main.css" />
 <link rel="stylesheet" href="/assets/inputs.css" />
-<title>Unweighted GPA predictor</title>
+<title>Weighted GPA predictor</title>
 </head>
 <body>
-<h4>Unweighted only. Should work for Broward.</h4>
+<h4>Enter in your current GPA and Credits. You can find these in virtural counselor under graduation information.</h4>
 
 <input placeholder="CURRENT GPA" type="number" step=".00001" name="psw" id="currentg" />
 <input placeholder="CURRENT CREDITS" type="number" step=".00001" name="psw" id="currentc" />
@@ -63,7 +64,8 @@
 	<tr>
 		<th>
 			<div id="introduction"> 
-				<h4 id="GPAS">Unweighted GPA: </h4>
+				<h4 id="GPAS">Weighted GPA: </h4>
+				<h4 id="GPAS2">Unweighted GPA: </h4>
 			</div>
 		</th>
 		<th>
