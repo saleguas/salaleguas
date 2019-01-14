@@ -5,10 +5,10 @@ permalink: /predictor/
 ---
 <head>
 <meta name="keywords" content="broward gpa predictor, predictor, gpa predictor, cypress bay gpa predictor">
-<script type="text/javascript" src="/assets/weightedpredict.js"></script>
-
 <link rel="stylesheet" href='/assets/main.css'>
 <link rel="stylesheet" href="/assets/inputs.css">
+<script type="text/javascript" src="/assets/predict.js"></script>
+
 <title>Weighted GPA predictor</title>
 </head>
 <body>
@@ -17,7 +17,6 @@ permalink: /predictor/
 <input placeholder = "CURRENT GPA" type="number" step = ".00001" name="psw" id = "currentg">
 <input placeholder = "CURRENT CREDITS" type="number" step = ".00001" name="psw" id = "currentc">
 
-<script>setup()</script>
 <table id = "tabl">
 	<tr>
 		<th>Classes</th>
