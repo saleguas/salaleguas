@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Some useful tools that will help you calculate and predict your GPA.
   Works for Cypress bay and Broward county as far as I have tested it.
   I am NOT responsible for anything that happens from these tools. Use them at your own risk.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://saleguas.github.io/salaleguas/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/salaleguas" # the subpath of your site, e.g. /blog
+url: "https://saleguas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xyungmattyx
 github_username:  saleguas
 
