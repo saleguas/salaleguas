@@ -3,8 +3,8 @@ layout: page
 title: GPA calculator
 permalink: /calculator/
 ---
-<link rel="stylesheet" href='/salaleguas/assets/main.css'>
-<link rel="stylesheet" href="/salaleguas/assets/inputs.css">
+<link rel="stylesheet" href='/assets/main.css'>
+<link rel="stylesheet" href="/assets/inputs.css">
 
 <head>
 <title>Cypress Bay Broward Highschool high school GPA calculator</title>
