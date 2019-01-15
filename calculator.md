@@ -11,7 +11,7 @@ permalink: /calculator/
 <meta name="keywords" content="highschool, High school, gpa, GPA, broward, Broward, Cypress bay, Cypress, Cypress bay highschool, cypress bay high school, cypress bay gpa calculator, gpa calculator, cypress gpa calculator, please give me traffic, gpa calculator cypress, broward gpa calculator, gpa calculator broward, gpa predictor, gpa predictor cypress">
 </head>
 <body>
-<script type="text/javascript" src="/salaleguas/assets/script.js"></script>
+<script type="text/javascript" src="/assets/script.js"></script>
 <link rel="stylesheet" type="text/css" href="/assets/main.css" media = "screen,projection"/>
 <h4>Use the buttons to add and remove classes.</h4>
 <table id = "tabl">
