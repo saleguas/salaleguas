@@ -3,7 +3,6 @@ layout: page
 title: GPA calculator
 permalink: /calculator/
 ---
-<link rel="stylesheet" href='/assets/main.css'>
 <link rel="stylesheet" href="/assets/inputs.css">
 
 <head>
