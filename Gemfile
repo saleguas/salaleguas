@@ -19,7 +19,7 @@ gem 'minima'
 # If you have any plugins, put them here!
 
 gem "jekyll-feed", "~> 0.6"
-gem "jekyll-sitemap"
+#gem "jekyll-sitemap"
 gem "github-pages"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
