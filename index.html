@@ -1,0 +1,25 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: page
+---
+
+<title>Cypress Bay Broward Highschool high school GPA calculator</title>
+<body>
+	<div id="Introduction">
+		<h2>Hello!</h2>
+		<p style="font-size: 1em">
+			Welcome to one of my projects. This was my first project and was created to calculate grade point averages for the Broward County school system(it may work for some others as well, i'm not sure though).
+			I made this because the way it is calculated is a bit vague for both weighted and unweighted. Of course, you don't really need to read
+			this summary, as there is instructions in both the <a href = "{{"/manual-calculation" | prepend: site.baseurl }}">manual calculation tab</a> and the <a href = "{{"/gpa-calculator" | prepend: site.baseurl }}">predictor tab</a>.
+		</p>
+	</div>
+</body>
+{% highlight ruby %}
+def print_status(status)
+  puts "The status is #{status}"
+end
+print_status("DEPLOYED!")
+#=> prints "The status is DEPLOYED!"
+{% endhighlight %}

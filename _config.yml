@@ -1,44 +1,51 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Cypress Bay/Broward/high school GPA calculator
+title: Broward GPA calculator
+author: Salvador Aleguas
 email: salvadoraleguas@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Some useful tools that will help you calculate and predict your GPA.
+description: >
+  This website provides manual documentation as well as an automated calculator to calculate and/or predict your GPA. 
   Works for Cypress bay and Broward county as far as I have tested it.
   I am NOT responsible for anything that happens from these tools. Use them at your own risk.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://salvadoraleguas.info" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: xyungmattyx
-github_username:  saleguas
-
-# Build settings
-markdown: kramdown
-theme: minima
+url: "https://salvadoraleguas.info"
+logo: /assets/favicon/android-chrome-512x512.png
+social:
+  name: saleguas
+  links:
+    - https://www.instagram.com/12kix/
+    - https://github.com/saleguas
+  
 plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  
   - jekyll-feed
- # - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+minima_reboot:
+  date_format: "%b %-d, %Y"
+  date_format_short: "%b %-d"
+
+header_pages:
+- aboutme.html
+- manual.html
+- calculator.html
+- advice.html
+
+footer_icons:
+- username: saleguas
+  url: https://github.com/saleguas/salaleguas
+  icon: icon-github.svg
+- username: 12kix
+  url: https://www.instagram.com/12kix/
+  icon: icon-instagram.svg
+
+paginate: 5
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - minima-reboot.gemspec
+
+baseurl: ""

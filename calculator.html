@@ -1,0 +1,87 @@
+---
+layout: page
+title: Grade Point Average(GPA) Calculator
+permalink: /gpa-calculator/
+---
+<title>GPA Calculator</title>
+<body>
+	<h6>Enter in your current GPA and Credits. You can find these in virtural counselor under graduation information.</h6>
+	<h6>Use the buttons to add and remove classes.</h6>
+	<div class = "controls container" style="text-align: center; border: solid 2px #c9c9c9;">
+		<div style="border: thin solid #c9c9c9; width: auto; margin-bottom: 5%; opacity: 0.25"></div>
+		<div class='container'>
+			<div class="row">
+				<div class="col">
+					<div class="col">
+						<b>Weighted GPA:</b>	
+					</div>
+					<div class="col" id="weightedOutput">
+						0.0000
+					</div>
+				</div>
+				<div class="col">
+					<label class="switch">
+						<input type="checkbox" id="togBtn" onclick='toggleVisibility("buttons", "custom");'>
+						<div class="slider round"></div>
+					</label>
+				</div>
+				<div class="col">
+					<div class="col">
+						<b>Unweighted GPA:</b>	
+					</div>
+					<div class="col" id="unweightedOutput">
+						0.0000
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="border: thin solid #c9c9c9; width: auto; opacity: 0.25"></div>
+		<div id="buttons" class="container">
+			<div class = "row">
+				<div class = "col">
+					<button id="addClass" onclick="addClass()">Add Class</button>
+				</div>
+				<div class = "col">
+					<button id="remClass" onclick="removeClass()">Remove Class</button>
+				</div>
+			</div>
+		</div>
+		<div id ="custom" style="display: none">
+			<div class = "container">
+				<div class="row">
+					<div class = "col">
+						<div class="col">
+							Unweighted
+						</div>
+						<div class="col">
+							<input value="0" id="unweightedInput" class="form-control" type="number" name="UnweightedField" step="0.0001" oninput='update("unweightedInput","unweightedOutput");update("weightedInput","weightedOutput");'>
+						</div>
+					</div>
+					<div class = "col">
+						<div class="col">
+							Credits
+						</div>
+						<div class="col">
+							<input value="0" id="creditsInput" class="form-control" type="number" name="creditsField" step="0.5" oninput='update("unweightedInput","unweightedOutput");update("weightedInput","weightedOutput");'>
+						</div>
+					</div>
+					<div class = "col">
+						<div class="col">
+							Weighted
+						</div>
+						<div class="col">
+							<input value="0" id="weightedInput" class="form-control" type="number" name="WeightedField" step="0.0001" oninput='update("unweightedInput","unweightedOutput");update("weightedInput","weightedOutput");'>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-muted">
+			The fields are respectively the Name, grade, type, and credits for the class.
+		</div>
+		<div id="classDock"></div>
+	</div>
+</body>
+<footer>
+	<script src="{{ "/assets/js/controls.js" | relative_url }}"></script>
+</footer>
